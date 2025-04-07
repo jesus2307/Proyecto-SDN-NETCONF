@@ -53,24 +53,24 @@ proyecto-netconf-sdn-simulado/
 
 ```bash
 sudo docker compose up --build -d
-![Descripción de la imagen](/images/Captura1.PNG)
-```
 
+```
+![Descripción de la imagen](/images/Captura1.PNG)
 ### 2. Ejecutar el controlador SDN
 
 ```bash
 cd controlador
 python3 controlador.py
-![Descripción de la imagen](Proyecto-SDN-NETCONF/images/Captura1.PNG)
-```
 
+```
+![Descripción de la imagen](images/Captura1.PNG)
 ### 3. Simular movilidad de satélites
 
 ```bash
 sudo docker stop satelite2
 python3 controlador.py
 sudo docker start satelite2
-![Descripción de la imagen](/images/Captura3.PNG)
-```
 
----
+```
+![Descripción de la imagen](/images/Captura3.PNG)
+
