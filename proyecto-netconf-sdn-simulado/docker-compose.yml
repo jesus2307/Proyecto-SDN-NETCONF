@@ -1,0 +1,23 @@
+version: '3'
+services:
+  satelite1:
+    image: sysrepo/sysrepo-netopeer2
+    container_name: satelite1
+    hostname: satelite1
+    ports:
+      - "8301:830"
+
+  satelite2:
+    image: sysrepo/sysrepo-netopeer2
+    container_name: satelite2
+    hostname: satelite2
+    ports:
+      - "8302:830"
+
+  satelite3:
+    image: sysrepo/sysrepo-netopeer2
+    container_name: satelite3
+    hostname: satelite3
+    ports:
+      - "8303:830"
+
