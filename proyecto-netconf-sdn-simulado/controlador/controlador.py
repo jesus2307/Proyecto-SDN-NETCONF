@@ -1,7 +1,7 @@
 import paramiko
 from ncclient import manager
 
-# 👇 Forzamos el tipo de clave aceptada
+#  Forzamos el tipo de clave aceptada
 paramiko.transport._preferred_keys = ['ssh-rsa']
 
 def conectar_nodo(host, port, username, password):
@@ -17,7 +17,7 @@ def conectar_nodo(host, port, username, password):
             timeout=5
         ) as m:
             print(f"✅ Conectado a {host}:{port}")
-            print("🔗 Capabilities simuladas:")
+            print(" Capabilities simuladas:")
             for cap in m.server_capabilities:
                 print(cap)
     except Exception as e:
