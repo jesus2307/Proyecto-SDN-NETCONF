@@ -61,7 +61,7 @@ sudo docker compose up --build -d
 ```bash
 cd controlador
 python3 controlador.py
-![Descripción de la imagen](/images/Captura2.PNG)
+![Descripción de la imagen](Proyecto-SDN-NETCONF/images/Captura1.PNG)
 ```
 
 ### 3. Simular movilidad de satélites
