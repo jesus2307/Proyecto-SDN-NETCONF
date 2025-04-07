@@ -3,7 +3,6 @@
 
 ## Información General
 
-**Título del Proyecto:**
 
 Proyecto de desarrollo de un controlador SDN (Software Defined Networking) utilizando el protocolo NETCONF, enfocado en gestionar la movilidad de una red distribuida de satélites LEO (como Iridium o Starlink).
 
